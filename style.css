@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+ul.swiper-wrapper {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Swiper container */
+  .swiper {
+    max-width: 100%;
+  }
+  /* 
+  /* swiper responive image */
+  .swiper img {
+    width: 100%;
+    height: 600px;
+  
+  }
+  
+  .swiper-slide {
+    /* Remove this if you want 1 slide perview - than change slidesPerView js-option to 1 -or- 2+ instead of 'auto'
+    https://swiperjs.com/demos#slides-per-view-auto
+    */
+    width: 80%;
+  }
+  
+  /* Swiper custom pagination */
+  .swiper-pagination-bullet {
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.3);
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  /* Swiper custom pagination */
+  .swiper-pagination-bullet:hover {
+    transition: background-color 0.5s ease;
+    background: rgba(0, 0, 0, 1);
+    color: white;
+  }
+  
+  /* Swiper custom pagination active state */
+  .swiper-pagination-bullet-active {
+    color: #fff;
+    background: black;
+  }
+  
+  /*==================================================================
+  CODEPEN STYLES -(under codepen gear/setting icon)
+  ==============================================++++++================*/
+  .tippy-tooltip.light-theme {
+    color: #26323d;
+    box-shadow: 0 0 20px 4px rgba(154, 161, 177, 0.15),
+      0 4px 80px -8px rgba(36, 40, 47, 0.25),
+      0 4px 4px -2px rgba(91, 94, 105, 0.15);
+    background-color: white;
+  }
+  
+  .tippy-backdrop {
+    background-color: white;
+  }
+  
+  .tippy-roundarrow {
+    fill: white;
+  }
+  
+  /* Default (sharp) arrow */
+  .tippy-popper[x-placement^='top'] .tippy-tooltip.light-theme .tippy-arrow {
+    border-top-color: #fff;
+  }
+  .tippy-popper[x-placement^='bottom'] .tippy-tooltip.light-theme .tippy-arrow {
+    border-bottom-color: #fff;
+  }
+  .tippy-popper[x-placement^='left'] .tippy-tooltip.light-theme .tippy-arrow {
+    border-left-color: #fff;
+  }
+  .tippy-popper[x-placement^='right'] .tippy-tooltip.light-theme .tippy-arrow {
+    border-right-color: #fff;
+  }
+  /* Round arrow */
+  .tippy-tooltip.light-theme .tippy-roundarrow {
+    fill: #fff;
+  }
+
+
+
+
+  /* magnify*/
+  .img-magnifier-container {
+    position:relative;
+  }
+  
+  .img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 100px;
+    height: 100px;
+  }
+
+
